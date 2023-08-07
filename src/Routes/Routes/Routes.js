@@ -7,11 +7,23 @@ import Signup from "../../Pages/Signup/Signup";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+          path: '/',
         element: <Main></Main>,
         children: [
             {
                 path: '/',
+                element: <Home></Home>
+            },
+            {
+                path: '/about',
+                element: <Home></Home>
+            },
+            {
+                path: '/reviews',
+                element: <Home></Home>
+            },
+            {
+                path: '/contact',
                 element: <Home></Home>
             },
             {
